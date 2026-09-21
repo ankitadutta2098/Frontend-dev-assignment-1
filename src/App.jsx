@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 
 // Component 1: Navigation Bar
@@ -10,7 +9,7 @@ function Navbar() {
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Contacts</a></li>
       </ul>
     </nav>
   );
@@ -32,9 +31,9 @@ function About() {
     <section id="about" className="section-block">
       <h2 className="section-title">About Me</h2>
       <p>
-        I am a curious software enthusiast focused on modern front-end engineering. 
-        I enjoy building user-friendly, responsive applications and solving challenging 
-        algorithmic problems. Currently looking for opportunities to grow and apply 
+        I am a curious software enthusiast focused on modern front-end engineering.
+        I enjoy building user-friendly, responsive applications and solving challenging
+        algorithmic problems. Currently looking for opportunities to grow and apply
         my technical skills in full-stack web development.
       </p>
     </section>
